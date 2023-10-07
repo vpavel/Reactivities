@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 apsettings.json
-apsettings.development.json
+apsettings.Development.json
 
 # User-specific files
 *.rsuser
