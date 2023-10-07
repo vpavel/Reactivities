@@ -1,6 +1,5 @@
 using Domain;
 using Microsoft.AspNetCore.Mvc;
-using MediatR;
 using Application.Activities;
 using Microsoft.AspNetCore.Authorization;
 
@@ -8,7 +7,7 @@ namespace API.Controllers
 {
   public class ActivitiesController : BaseApiController
   {
-
+    [AllowAnonymous]
     [HttpGet] //api/activities
     public async Task<IActionResult> GetActivities()
     {
